@@ -1,6 +1,7 @@
 {
   "name": "sem-s-simple-theme",
-  "displayName": "Sem's simple theme",
+  "displayName": "Sem's Simple Theme",
+  "publisher": "SemSchwab",
   "description": "dark yellow and purple theme, feel free to try!",
   "version": "0.0.1",
   "engines": {
