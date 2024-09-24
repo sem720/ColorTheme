@@ -1,12 +1,13 @@
 {
   "name": "sem-s-simple-theme",
-  "displayName": "Sem's Simple Theme",
+  "displayName": "Sem's Simple Theme(yellow&purple)",
   "publisher": "SemSchwab",
   "description": "dark yellow and purple theme, feel free to try!",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.93.0"
   },
+  "icon":"flower-icon.jpg",
   "categories": [
     "Themes"
   ],
