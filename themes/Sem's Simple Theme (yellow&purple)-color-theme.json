@@ -1,7 +1,7 @@
 {
 	"name": "Sem's Simple Theme",
 	"displayName":"sem720",
-	"publisher name": "SemSchwab",
+	"publisher": "SemSchwab",
 	"description":"A modern simple and dark Colortheme, working with yellow and purple!",
 	  "$schema": "vscode://schemas/color-theme",
 	  "type": "dark",
