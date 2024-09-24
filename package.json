@@ -1,0 +1,21 @@
+{
+  "name": "sem-s-simple-theme",
+  "displayName": "Sem's simple theme",
+  "description": "dark yellow and purple theme, feel free to try!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sem's Simple Theme (yellow&purple)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sem's Simple Theme (yellow&purple)-color-theme.json"
+      }
+    ]
+  }
+}
