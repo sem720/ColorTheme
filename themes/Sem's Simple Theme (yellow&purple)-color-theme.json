@@ -5,12 +5,12 @@
 	"description":"A modern simple and dark Colortheme, working with yellow and purple!",
 	  "$schema": "vscode://schemas/color-theme",
 	  "type": "dark",
+	  "version": "1.0.0",
 	  "keywords":["dark simple theme","yellow and purple","simple yellow and purple","Sem's Simple Theme"],
 	  "repository": {
-		"type":"git",
-		"url":"https://github.com/sem720/Sem-s-Simple-Theme/tree/main/sem-s-simple-theme"
-	  },
-	
+		  "type": "git",
+		  "url": "https://github.com/sem720/ColorTheme.git"
+		},
 	  "colors": {
 		"activityBar.background": "#1E1E1E",
 		"activityBar.border": "#1E1E1E60",
@@ -52,8 +52,8 @@
 		"editorGutter.modifiedBackground": "#EFEFEF60",
 		"editorHoverWidget.background": "#1E1E1E",
 		"editorHoverWidget.border": "#F2F2F210",
-		"editorIndentGuide.activeBackground": "#323232",
-		"editorIndentGuide.background": "#32323270",
+		"editorIndentGuide.activeBackground1": "#323232",
+		"editorIndentGuide.background1": "#32323270",
 		"editorInfo.foreground": "#EFEFEF70",
 		"editorLineNumber.activeForeground": "#d86ae2",
 		"editorLineNumber.foreground": "#e6e6e6c0",
@@ -61,7 +61,7 @@
 		"editorMarkerNavigation.background": "#F2F2F205",
 		"editorOverviewRuler.border": "#1E1E1E",
 		"editorOverviewRuler.errorForeground": "#850E7E40",
-		"editorOverviewRuler.findMatchForeground": "#F2C955",
+		"editorOverviewRuler.findMatchForeground": "#f2c85594",
 		"editorOverviewRuler.infoForeground": "#EFEFEF40",
 		"editorOverviewRuler.warningForeground": "#AD12A470",
 		"editorRuler.foreground": "#323232",
@@ -401,7 +401,7 @@
 			"entity.name.tag.html"
 		  ],
 		  "settings": {
-			"fontStyle": "#fffff",
+			"fontStyle": "italic bold strikethrough",
 			"foreground": "#fc6bf4"
 		  }
 		},
