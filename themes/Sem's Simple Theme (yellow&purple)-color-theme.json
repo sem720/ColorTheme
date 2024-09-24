@@ -1,11 +1,12 @@
 {
-	"name": "Sem's Simple Theme()",
-	"displayName":"Sem71",
-	"publisher": "SemSchwab",
+	"name": "Sem's Simple Theme",
+	"displayName":"sem720",
+	"publisher name": "SemSchwab",
 	"description":"A modern simple and dark Colortheme, working with yellow and purple!",
 	  "$schema": "vscode://schemas/color-theme",
 	  "type": "dark",
 	  "version": "1.0.0",
+	  "license": "MIT",
 	  "keywords":["dark simple theme","yellow and purple","simple yellow and purple","Sem's Simple Theme"],
 	  "repository": {
 		  "type": "git",
