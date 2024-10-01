@@ -3,11 +3,11 @@
   "displayName": "Sem's Simple Theme(yellow&purple)",
   "publisher": "SemSchwab",
   "description": "dark yellow and purple theme, feel free to try!",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.93.0"
   },
-  "icon":"flower-icon.jpg",
+  "icon":"flower-icon.png",
   "categories": [
     "Themes"
   ],
