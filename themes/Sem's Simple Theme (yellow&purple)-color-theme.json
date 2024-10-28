@@ -1,20 +1,24 @@
 {
-	"name": "Sem's Simple Theme",
-	"displayName":"sem720",
-	"publisher": "SemSchwab",
-	"description":"Perfect for Winter! A modern simple and dark Colortheme, working with yellow and purple! It brings the perfect winter spice with it!",
-	  "$schema": "vscode://schemas/color-theme",
-	  "type": "dark",
-	  "version": "1.0.7",
-	  "license": "MIT",
-	  "keywords":["dark simple theme","yellow and purple","simple yellow and purple","Sem's Simple Theme"],
-	  "repository": {
-		  "type": "git",
-		  "url": "https://github.com/sem720/ColorTheme.git"
-		},
-		
-			
-		"tokenColors": [
+  "name": "Sem's Simple Theme",
+  "displayName": "sem720",
+  "publisher": "SemSchwab",
+  "description": "Perfect for Winter! A modern simple and dark Colortheme, working with yellow and purple! It brings the perfect winter spice with it!",
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "version": "1.0.9",
+  "license": "MIT",
+  "keywords": [
+    "dark simple theme",
+    "yellow and purple",
+    "simple yellow and purple",
+    "Sem's Simple Theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sem720/ColorTheme.git"
+  },
+
+  "tokenColors": [
     {
       "name": "Global settings",
       "settings": {
@@ -52,9 +56,16 @@
     },
     {
       "name": "Identifier",
-      "scope": "variable, support.variable, support.class, support.constant, meta.definition.variable, entity.name.function",
+      "scope": "variable, support.variable, support.class, support.constant, meta.definition.variable",
       "settings": {
-        "foreground": "#5eb7ee"
+        "foreground": "#c0c0c0"
+      }
+    },
+    {
+      "name": "Identifier2",
+      "scope": "entity.name.function.js, meta.definition.function.js, meta.function.js, source.js",
+      "settings": {
+        "foreground": "#eed85e"
       }
     },
     {
@@ -104,14 +115,14 @@
       "name": "Type",
       "scope": "support.type",
       "settings": {
-        "foreground": "#00ccff"
+        "foreground": "#5eb7ee"
       }
     },
     {
       "name": "Type",
       "scope": "entity.name.type, entity.other.inherited-class",
       "settings": {
-        "foreground": "#00ccff"
+        "foreground": "#5eb7ee"
       }
     },
     {
@@ -177,6 +188,20 @@
       "scope": "meta.object-literal.key, meta.object-literal.key string, support.type.property-name.json",
       "settings": {
         "foreground": "#5eb7ee"
+      }
+    },
+    {
+      "name": "html strings",
+      "scope": "string.quoted.double.html, meta.attribute.href.html, meta.tag.metadata.link.void.html",
+      "settings": {
+        "foreground": "#5eb7ee"
+      }
+    },
+    {
+      "name": "INI property name",
+      "scope": "keyword.other.unit.px.css, constant.numeric.css",
+      "settings": {
+        "foreground": "#e4e4e4"
       }
     },
     {
@@ -431,7 +456,7 @@
     "editor.background": "#09131b",
     "editor.foreground": "#FFFFFF",
     "editorLineNumber.foreground": "#FFFFFF4d",
-    "editorLineNumber.activeForeground": "#ca3d73",
+    "editorLineNumber.activeForeground": "#5390c9",
     "editorCursor.foreground": "#FFE400",
     "editor.lineHighlightBorder": "#FFFFFF1a",
     "editor.rangeHighlightBackground": "#FFFFFF0d",
@@ -458,6 +483,7 @@
     "pickerGroup.border": "#FFFFFF1a",
     "debugToolBar.background": "#0c1a25",
     "selection.background": "#ca3d73",
-    "sash.hoverBorder": "#ca3d73"
+    "sash.hoverBorder": "#ca3d73",
+    "editorSuggestWidget.selectedBackground": "#102230"
   }
 }
